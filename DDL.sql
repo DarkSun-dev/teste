@@ -6,7 +6,6 @@ CREATE TABLE customer(
     CONSTRAINT email UNIQUE (email)
 )
 
-------------------------------------------------------------------------
 CREATE TABLE location(
     id integer serial PRIMARY KEY NOT NULL ,
     email character varying(200) NOT NULL,
