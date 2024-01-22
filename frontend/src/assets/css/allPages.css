@@ -1,0 +1,25 @@
+.grid {
+    display: block;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    background: white !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.grid .card {
+    padding: 5px;
+}
+
+.division{
+    padding: 1px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}

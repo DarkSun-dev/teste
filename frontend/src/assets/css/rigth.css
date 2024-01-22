@@ -1,0 +1,16 @@
+.studentView{
+    float: right;
+    border: 2px solid coral;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: -70px;
+    padding: 10px
+}
+@media(max-width: 770px){
+    .studentView{
+        float: none;
+        border: 2px solid coral;
+        border-radius: 0px;
+        margin-top: 10px;
+        padding: 10px
+    }
+}

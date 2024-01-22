@@ -1,0 +1,17 @@
+{
+  "name": "robust",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run start\" \"cd frontend && npm start\"",
+    "init": "concurrently \"cd backend && npm i\" \"cd frontend && npm i\"",
+    "back": "cd backend && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "DMS"
+  ],
+  "author": "Aristides icente",
+  "license": "ISC"
+}

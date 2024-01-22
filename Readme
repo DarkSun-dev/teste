@@ -1,0 +1,12 @@
+Instale as todas dependiacias usando os comandos:
+#run npm run init
+
+***or***
+
+#cd backend npm i 
+and then: cd..
+***and***
+#cd frontend npm i
+and then: cd..
+
+#Versão das ferramentas utilizadas: veja nos ficheiros PACKAGE.JSON

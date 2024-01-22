@@ -1,0 +1,44 @@
+.firstForm, .secondForm, .thirdForm{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secondForm button, .thirdForm button{
+    margin-right: 5px;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+.firstForm button{
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.lastForm button{
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+
+.firstForm input[type=date]{
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 3px;
+}
+
+.lastForm{
+    font-size: 13px;
+    width: 90%;
+}
+
+
+@media(max-width: 767px){
+    .firstForm, .secondForm, .thirdForm{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

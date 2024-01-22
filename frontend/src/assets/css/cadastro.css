@@ -1,0 +1,136 @@
+.grid-post .cardB{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.grid-post .division {
+    padding: 1px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: auto;
+    margin-bottom: 25px;
+}
+
+.grid-post .division .ilustre{
+    width: 250px;
+}
+
+.grid-post .division .ilustre img{
+    width: 100%;
+}
+
+
+
+.buttonCadastrar{
+	box-shadow:inset 0px 0px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79ffaa 5%, #1fd678 100%);
+	background-color:#79bbff;
+	border-radius:4px;
+	display:inline-block;
+	color:#000000;
+    text-transform: 'none';
+	font-size:13px;
+	padding:12px 36px;
+	text-decoration:none;
+    border: none;
+    border-radius: 0px;
+    width: 250px;
+    margin: 10px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.buttonCadastrar:hover {
+	background:linear-gradient(to bottom, #1fd678 5%, #09f28d 100%);
+	background-color:#33ff7e;
+}
+
+.buttonCadastrar:active {
+	position:relative;
+	top:1px;
+}
+
+
+.buttonBack:hover{
+    background-color: #ccc;
+}
+
+.buttonBack:active{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    padding: 1px;
+}
+.buttonBack img{
+    z-index: 111;
+    height: 32px;
+    width: 30px;
+}
+
+.titulo strong{
+
+  position: relative;
+  top: -17px;
+}
+
+#min{
+  position: absolute;
+    color: grey;
+    font-size: 10px;
+    top: 90px;
+    left: 294px;
+}
+
+
+
+
+
+/*form*/
+#msform {
+	width: 400px;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+}
+#msform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	
+	/*stacking fieldsets above each other*/
+	position: relative;
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+#msform input, #msform textarea {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+}
+/*buttons*/
+#msform .action-button {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
