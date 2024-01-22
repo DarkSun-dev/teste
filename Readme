@@ -10,3 +10,64 @@ and then: cd..
 and then: cd..
 
 #Versão das ferramentas utilizadas: veja nos ficheiros PACKAGE.JSON
+-------------------------------------------------------------------------------
+## What's needed
+
+- Make sure you have [postgresql](https://www.postgresql.org/download/) installed on machine and [pgAdmin](https://www.pgadmin.org/download/) - postgresql management tool
+- Make sure you have [node.js](https://nodejs.org/en/download/) installed
+
+
+## Database Connections - PostgreSQL
+
+Create Database and use the credentials at `connectionStrings`.
+
+```
+const { Client } = require('pg');
+var connectionString = "postgres://postgres:vicenty5@@localhost:5432/test";
+
+const client = new Client({
+    connectionString: connectionString
+});
+```
+
+## Getting started
+
+- Download the project’s zip
+- After Creating Database, Check your Connection Strings and Create new table in PostgreSQL
+
+```
+CREATE TABLE customer(
+    id integer serial PRIMARY KEY NOT NULL,
+    name character varying(200) NOT NULL,
+    email character varying(200) NOT NULL,
+    phone character varying(20) NOT NULL,
+    CONSTRAINT email UNIQUE (email)
+)
+
+CREATE TABLE location(
+    id integer serial PRIMARY KEY NOT NULL ,
+    email character varying(200) NOT NULL,
+    customer character varying(80) NOT NULL,
+    description character varying(200) NOT NULL,
+    rating integer NOT NULL,
+    "long" double precision NOT NULL,
+    lat double precision NOT NULL,
+    "createdAt" timestamp with time zone,
+    "updatedAt" timestamp without time zone,
+    title character varying(100),
+    CONSTRAINT name UNIQUE (email)
+)
+
+```
+
+- Type `npm install` in terminal/console in the source folder where `backend` is located
+- Type `npm install` in terminal/console in the source folder where `frontent` is located
+- Type `npm run dev` in terminal/console in the source folder where `main-project (test)` is located
+- server started on port 4000. (http://localhost:5000/) in default browser
+
+## Help on Executing Queries
+
+Documented is available node-postgres(Doc) [pg](https://node-postgres.com/features/queries)
+
+
+
