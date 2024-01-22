@@ -63,7 +63,7 @@ CREATE TABLE location(
 - Type `npm install` in terminal/console in the source folder where `backend` is located
 - Type `npm install` in terminal/console in the source folder where `frontent` is located
 - Type `npm run dev` in terminal/console in the source folder where `main-project (test)` is located
-- server started on port 4000. (http://localhost:5000/) in default browser
+- server started on port 5000. (http://localhost:5000/) in default browser
 
 ## Help on Executing Queries
 
