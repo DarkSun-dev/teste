@@ -13,7 +13,7 @@ and then: cd..
 -------------------------------------------------------------------------------
 ## What's needed
 
-- Make sure you have [postgresql](https://www.postgresql.org/download/) installed on machine and [pgAdmin](https://www.pgadmin.org/download/) - postgresql management tool
+- Make sure you have [postgresql](https://www.postgresql.org/download/) installed on machine and [pgAdmin](https://www.pgadmin.org/download/) - postgresql16 management tool
 - Make sure you have [node.js](https://nodejs.org/en/download/) installed
 
 
